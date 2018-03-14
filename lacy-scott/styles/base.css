@@ -1,0 +1,20 @@
+.site-header {
+    background-color: rgb(201, 186, 119);
+   }
+   
+   .heading-group-h1 {
+    width: 75%;
+    margin: 0px;
+    float: left;
+   }
+   
+   img {
+    width: 100%;
+   }
+   #articles h1 {
+    font-size: 5vw;
+   }
+   
+   p {
+    font-size: 3vw;
+   }
