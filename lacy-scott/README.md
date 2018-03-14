@@ -1,7 +1,7 @@
 # jQuery and the DOM
 
 **Author**: Scott Thompson and Lacy Hogan
-**Version**: 1.0.0 
+**Version**: 1.1.0 
 
 ## Overview
 Creating a Blog with multiple articles that are sorted by publication date
