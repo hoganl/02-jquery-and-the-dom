@@ -21,7 +21,7 @@ Article.prototype.toHtml = function() {
   // It copies not only matched elements, but also their descendants and text nodes.
 
   let $newArticle = $('article.template').clone();
-  $newArticle.removeClass('.template');
+  $newArticle.removeClass('template');
   /* DONE: This cloned article still has a class of template. In our modules.css stylesheet, we should give all elements with a class of template a display of none so that our template does not display in the browser. But, we also need to make sure we're not accidentally hiding our cloned article. */
 
   if (!this.publishedOn) {$newArticle.addClass('draft');}
