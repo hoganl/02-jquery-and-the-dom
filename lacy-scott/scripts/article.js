@@ -3,7 +3,7 @@
 let articles = [];
 
 // COMMENT: What is the purpose of the following function? Why is its name capitalized? Explain the context of "this" within the function. What does "rawDataObj" represent?
-// The purpose of the below function is a constructor function that allow you to create a prototype with properties in which multiple objects (instances) that all have the same properties without creating multiple individual objects. The name is capitalized because it good practice and it notifies the user that it is a constructor prototype and can be assigned new instances. It is a constructor property that will be passed to all instances.
+// The purpose of the below function is a constructor function that allow you to create a prototype with properties in which multiple objects (instances) that all have the same properties without creating multiple individual objects. The name is capitalized because it good practice and it notifies the user that it is a constructor prototype and can be assigned new instances. It is a constructor property that will be passed to all instances. For the context of the "this" function, when accessing the rawDataObj in the blogArticles.js page you noticed that rawDataObj is one array that contains many objects with properties of all the detail in the blogs. When using the Article constructor we only have one object in it. This is because when we make several new Articles we are accessing the objects and all the different properties in each object in that array.   
 
 function Article (rawDataObj) {
   // DONE: Use the JS object that is passed in to complete this constructor function:
